@@ -5,6 +5,7 @@ import HomeScreen from './HomeScreen';
 import AboutScreen from './AboutScreen';
 import ContactUsScreen from './ContactUsScreen';
 import GalleryScreen from './GalleryScreen';
+import TravelServicesScreen from './TravelServicesScreen';
 
 const Drawer = createDrawerNavigator();
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Drawer.Screen name="About" component={AboutScreen} />
         <Drawer.Screen name="Contact Us" component={ContactUsScreen} />
         <Drawer.Screen name="Gallery" component={GalleryScreen} />
+        <Drawer.Screen name="Travel Services" component={TravelServicesScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
